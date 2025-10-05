@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Toast.css";
-
-type ToastType = "success" | "error" | "info" | "warning";
-
+import type { ToastType } from "../../type/side.js";
 interface ToastProps {
   message: string;
   type: ToastType;
